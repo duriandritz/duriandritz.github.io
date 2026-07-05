@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HISTORY
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <div class="row" style="margin-bottom: 1em">
+            <div class="col"> DATE </div>
+            <div class="col"> TIME </div>
+            <div class="col"> TYPE </div>
+            <div class="col"> STOCK </div>
+            <div class="col"> UNITS </div>
+            <div class="col"> UNIT PRICE </div>
+            <div class="col"> VALUE </div>
+        </div>
+        {% for row in history %}
+            {% if row["transaction_type"] == "buy" %}
+            <div class="row">
+            {% else %}
+            <div class="row" style="color: red">
+            {% endif %}
+                <div class="col">{{ row["tr_year"] }}-{{ row["tr_month"] }}-{{ row["tr_day"] }}</div>
+                <div class="col">{{ row["tr_hour"] }}:{{ row["tr_min"] }}:{{ row["tr_sec"] }}</div>
+                <div class="col">{{ row["transaction_type"] }}</div>
+                <div class="col">{{ row["stock"] }}</div>
+                <div class="col">{{ row["units"] }}</div>
+                <div class="col">{{ row["unit_price"] }}</div>
+                <div class="col">{{ row["value"] }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

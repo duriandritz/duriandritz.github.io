@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HOMEPAGE
+{% endblock %}
+
+{% block main %}
+    <div class="container" style="margin-bottom: 2em">
+        <div class="row" style="margin-bottom: 1em">
+            <div class="col"> STOCK </div>
+            <div class="col"> UNITS </div>
+            <div class="col"> PRICE </div>
+            <div class="col"> VALUE </div>
+            <div class="col"> ACTION </div>
+        </div>
+        {% for row in portfolio %}
+            <div class="row">
+                <div class = "col"> {{ row["stock"] }}</div>
+                <div class = "col"> {{ row["units"] }}</div>
+                <div class = "col"> {{ row["price"] }}</div>
+                <div class = "col"> {{ row["cv"] }}</div>
+                <div class = "col">
+                     <form action="/sell" method="post">
+                        <input autocomplete="on" name="symbol" type="hidden" value="{{ row['stock'] }}">
+                        <input autocomplete="off" name="shares" placeholder="Units" type="text">
+                        <button type="submit">Sell</button>
+                     </form>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+        <div class="row">
+            <div class = "col-8"></div>
+            <div class = "col">TOTAL VALUE:</div>
+            <div class = "col">{{ sum }}</div>
+        </div>
+        <div class="row">
+            <div class = "col-8"></div>
+            <div class = "col">CASH BALANCE:</div>
+            <div class = "col">{{ cash }}</div>
+        </div>
+        <div class="row">
+            <div class = "col-8"></div>
+            <div class = "col">GRAND TOTAL:</div>
+            <div class = "col">{{ total }}</div>
+        </div>
+
+{% endblock %}

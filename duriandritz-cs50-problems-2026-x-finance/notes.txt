@@ -1,0 +1,34 @@
+TABLE 1 - users
+    id INT (P) AUTOINCREMENT?
+    username TEXT
+    hash TEXT
+    cash NUMERIC (default 10000.00)
+
+TABLE 2 - sqlite_sequence
+    name
+    seq
+
+UNIQUE INDEX - username ON users (username)
+    # this index makes running searches in TABLE user faster via username variable
+
+TABLE 3 - transactions
+    transaction_id INT UNIQUE (P) AUTOINCREMENT NOT NULL
+    user_id INT NOT NULL REFERENCES users(id)
+    transaction_type TEXT NOT NULL
+    stock TEXT NOT NULL
+    units INTEGER NOT NULL
+    unit_price NUMERIC NOT NULL
+
+TABLE 4 - trdates
+    tr_id INT NOT NULL REFERENCES transactions(transaction_id)
+    tr_year INT NOT NULL
+    tr_month INT NOT NULL
+    tr_day INT NOT NULL
+    tr_hour INT NOT NULL
+    tr_min INT NOT NULL
+    tr_sec INT NOT NULL
+
+TABLE 5 - inventory
+    user_id INTEGER NOT NULL REFERENCES users(id)
+    stock TEXT
+    units INTEGER
