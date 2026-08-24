@@ -1,11 +1,3 @@
---
-layout: default
-title: "DIY Stats - Statistical Test Selector"
-permalink: /statisticaltestselector
---
-
-<!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
