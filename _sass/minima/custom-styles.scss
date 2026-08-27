@@ -12,6 +12,11 @@
 .modal-footer {
     font-size: 0.7rem;
 }
+a {
+  &:visited {
+    color: black;
+  }
+}
 
 h1 {
     font-family: 'League Spartan', sans-serif;
