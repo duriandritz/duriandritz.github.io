@@ -117,14 +117,14 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $link-visited-color;
+    color: $link-base-color;
   }
 
-  // &:hover {
-  //   color: $link-hover-color;
-  //   text-decoration: underline $brand-color;
-  //   text-underline-offset: 3px;
-  // }
+  &:hover {
+    color: $link-base-color;
+    text-decoration: underline $link-base-color;
+    text-underline-offset: 1px;
+  }
 
   .social-media-list &:hover {
     text-decoration: none;
