@@ -63,7 +63,7 @@ permalink: /statisticaltestselector
                                             <!-- <h6 style="font-size: 12px"> -->
                                                 <p>
                                                     This web application was inspired by
-                                                    <a href="https://statisticaldecisiontree.microsiris.com/default.htm">The Decision Tree for Statistics</a>
+                                                    <a href="https://statisticaldecisiontree.microsiris.com/default.htm" style="text-decoration: underline">The Decision Tree for Statistics</a>
                                                     (2014) by Neal Van Eck. Rocket Scientist Teachers does not claim to own any copyrighted content
                                                     that may have been used in this web application.
                                                 </p>
@@ -979,7 +979,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="modal-footer">
-                        <p>Web Developer/Junior Statistician: <a href="/cvitae" target = "_blank">duriandritz</a></p>
+                        <p>Web Developer/Junior Statistician: <a href="/cvitae" target = "_blank" style="text-decoration: underline">duriandritz</a></p>
                 </div>
             </div>
         </div>
