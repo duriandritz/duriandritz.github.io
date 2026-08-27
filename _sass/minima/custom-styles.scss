@@ -66,18 +66,3 @@ h2 {
 .accordion-body {
     padding-bottom: 0.25rem;
 }
-
-a {
-  color: black;
-  text-decoration: none;
-
-  &:visited {
-    color: black;
-  }
-
-  &:hover {
-    color: black;
-    text-decoration: underline black;
-    text-underline-offset: 1px;
-  }
-}
