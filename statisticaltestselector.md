@@ -23,8 +23,7 @@
 
     </head>
 
-    <body     style="background-color: white"
->
+    <body style="background-color: white">
         <header class="navbar navbar-expand-md p-0">
             <div class="container p-0 pt-2">
                 <nav class="container mx-3">
