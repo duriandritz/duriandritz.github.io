@@ -117,12 +117,12 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $link-base-color;
+    color: $link-visited-color;
   }
 
   &:hover {
-    color: $link-base-color;
-    text-decoration: underline $link-base-color;
+    color: $link-hover-color;
+    text-decoration: underline $brand-color;
     text-underline-offset: 1px;
   }
 
