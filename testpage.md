@@ -1,5 +1,6 @@
 ---
 layout: base
+title: "DIY Stats - Statistical Test Selector"
 permalink: /testpage
 ---
 <body style="background-color: white">
