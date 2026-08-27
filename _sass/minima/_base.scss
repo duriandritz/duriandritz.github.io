@@ -113,15 +113,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: black;
+  color: $link-base-color;
   text-decoration: none;
 
   &:visited {
-    color: black;
+    color: $link-visited-color;
   }
 
   &:hover {
-    color: black;
+    color: $link-hover-color;
     // text-decoration: underline $brand-color;
     text-underline-offset: 3px;
   }

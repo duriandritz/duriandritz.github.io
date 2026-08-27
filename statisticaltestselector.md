@@ -77,7 +77,7 @@ permalink: /statisticaltestselector
                     <li class="nav-item dropdown-center">
                         <a class="nav-link dropdown-toggle px-2 text-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false">Other Tools</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/statisticaltestselector">Statistical Test Selector</a></li>
+                            <li><a class="dropdown-item" href="/statisticaltestselector" style="color:black">Statistical Test Selector</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><h6 class="dropdown-header">Coming Soon</h6></li>
                             <li><a class="dropdown-item disabled" href="#">Experimental Design Layout Builder</a></li>
