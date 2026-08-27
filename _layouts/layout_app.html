@@ -17,14 +17,14 @@
         <link href="/static/p_testselect_styles.css" rel="stylesheet">
 
         <!-- flask block for title on tab -->
-        <title>{% block title %}{% endblock %}</title>
+        <title>{{ site.title }}</title>
 
         <!-- Icon for Tab. Source: Bootstrap Icons -->
         <link href="/static/favicon.ico" rel="icon" type="image/x-icon">
 
     </head>
-
-    <body {% block body_settings %}{% endblock %}>
+<!-- {% block body_settings %}{% endblock %} -->
+    <body> 
         <header class="navbar navbar-expand-md p-0">
             <div class="container p-0 pt-2">
                 <nav class="container mx-3">
@@ -66,7 +66,8 @@
         </header>
 
         <main class="container-fluid d-flex py-2 text-center">
-            {% block main %}{% endblock %}
+            {{content}}
+            <!-- {% block main %}{% endblock %} -->
         </main>
         <!-- About Us Modal-->
         <div class="modal fade" id="AboutUs" tabindex="-1" aria-labelledby="AboutUsLabel" aria-hidden="true">
