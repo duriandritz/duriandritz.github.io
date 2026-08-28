@@ -47,11 +47,11 @@ h2 {
 .accordion-button {
     background-color: #00708A;
     color: white;
-    // --bs-accordion-active-bg: white;
-    // --bs-accordion-active-color: #00708A;
-    // --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
-    // --bs-accordion-btn-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%2300708a' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
-    // --bs-accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-active-color: #00708A;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%2300708a' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
 }
 
 .accordion-header {
@@ -66,14 +66,3 @@ h2 {
 .accordion-body {
     padding-bottom: 0.25rem;
 }
-
-// a {
-//   &:visited {
-//     color: $link-visited-color;
-//   }
-
-//   &:hover {
-//     color: $link-visited-color;
-//     text-decoration: none;
-//   }
-// }
