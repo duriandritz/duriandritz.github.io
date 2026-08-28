@@ -69,7 +69,7 @@ permalink: /cvitae
             <div class="container mx-0">
                 <div class="row">
                     <div class="col-auto me-0">
-                        <img class="rounded-circle border border-5" loading="lazy" style="--bs-border-color: #00708A" src="/static/dritzpic.png" width="175" height="175" alt="SIR Y">
+                        <img class="rounded-circle border border-5" loading="lazy" style="--bs-border-color: #00708A" src="/assets/images/dritzpic.png" width="175" height="175" alt="SIR Y">
                     </div>
                     <div class="col my-auto" style="padding-left: 20px">
                         <h6>
