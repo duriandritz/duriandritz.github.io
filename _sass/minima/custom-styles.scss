@@ -49,8 +49,8 @@ h2 {
     color: white;
     $accordion-active-bg: white;
     $accordion-active-color: #00708A;
-    $accordion-btn-icon: $custom-chevron;
-    $accordion-btn-active-icon: $custom-chevron-active;
+    $accordion-btn-icon: escape-svg($custom-chevron);
+    $accordion-btn-active-icon: escape-svg($custom-chevron-active);
     $accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
 }
 
