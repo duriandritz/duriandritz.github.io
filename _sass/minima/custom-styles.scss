@@ -52,6 +52,12 @@ h2 {
     // $accordion-btn-icon: escape-svg($custom-chevron);
     // $accordion-btn-active-icon: escape-svg($custom-chevron-active);
     --bs-accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
+    .accordion-button::after {
+        background-image: escape-svg($custom-chevron);
+    }
+    .accordion-button::not(.collapsed)::after {
+        background-image: escape-svg($custom-chevron-active);
+    }
 }
 
 .accordion-header {
