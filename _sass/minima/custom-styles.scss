@@ -47,11 +47,11 @@ h2 {
 .accordion-button {
     background-color: #00708A;
     color: white;
-    --bs-accordion-active-bg: white;
-    --bs-accordion-active-color: #00708A;
-    --bs-accordion-btn-icon: $custom-chevron;
-    --bs-accordion-btn-active-icon: $custom-chevron-active;
-    --bs-accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
+    $accordion-active-bg: white;
+    $accordion-active-color: #00708A;
+    $accordion-btn-icon: $custom-chevron;
+    $accordion-btn-active-icon: $custom-chevron-active;
+    $accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
 }
 
 .accordion-header {
