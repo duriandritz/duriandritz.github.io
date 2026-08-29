@@ -37,9 +37,8 @@ permalink: /cvitae
                     <div class="modal-footer">
                         <p>
                             You are currently viewing the first ever html page that I have created which was submitted as part of
-                            a problem set in CS50, one of Harvard University's free online courses. This is simply my Curriculum Vitae that
-                            I have rewritten/displayed as an HTML file. I did not include everything from my full CV but you get the
-                            picture. Thank you for supporting Rocket Scientist Teachers!
+                            a problem set in CS50, one of Harvard University's online courses. This is simply my Curriculum Vitae that
+                            I have rewritten/displayed as an HTML file. Thank you for supporting Rocket Scientist Teachers!
                         </p>
                     </div>
                 </div>
@@ -182,7 +181,7 @@ permalink: /cvitae
             <div class="accordion-item">
                 <h3 class="accordion-header" id="cvitae-headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cvitae-collapseSix" aria-expanded="true" aria-controls="cvitae-collapseSix">
-                        Services
+                        Other Services and Roles
                     </button>
                 </h3>
                 <div id="cvitae-collapseSix" class="accordion-collapse collapse">
