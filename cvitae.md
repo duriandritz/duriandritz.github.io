@@ -140,6 +140,84 @@ permalink: /cvitae
                 </div>
             </div>
             <!--end of Third Item-->
+            <!--Fourth Item: Trainings Attended-->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="cvitae-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cvitae-collapseFour" aria-expanded="true" aria-controls="cvitae-collapseFour">
+                        Trainings Attended
+                    </button>
+                </h3>
+                <div id="cvitae-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul class="cv-item">
+                            <li>Introduction to Technology for Teaching and Learning (02-27 March 2026)</li>
+                            <li>Training-Workshop for Python Programming –UPLB Institute of Statistics (02 December 2025)</li>
+                            <li>OASH: Onward to Actively Stop Harassment Caravan –UPLB Office of Anti-Sexual Harassment (25 November 2024)</li>
+                            <li>Training-Workshop for PowerBIand KNIME –UPLB Institute of Statistics (16 September 2024)</li>
+                            <li>86th Seminar on Teaching: Strengthening Capacities of New Academics – Center for the Advancement of Teaching and Learning - UPLB (05-09 August 2024)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end of Fourth Item-->
+            <!--Fifth Item: Internships-->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="cvitae-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cvitae-collapseFive" aria-expanded="true" aria-controls="cvitae-collapseFive">
+                        Internships
+                    </button>
+                </h3>
+                <div id="cvitae-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul class="cv-item">
+                            <li>Teaching Intern – South Hill School, Inc. (February - March 2019)</li>
+                            <li>Teaching Intern – University of the Philippines Rural High School (August - December 2018)</li>
+                            <li>Teaching Intern – Jacinto P. Elpa National High School (June - July 2018)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end of Fifth Item-->
+            <!--Sixth Item: Other Services and Roles-->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="cvitae-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cvitae-collapseSix" aria-expanded="true" aria-controls="cvitae-collapseSix">
+                        Services
+                    </button>
+                </h3>
+                <div id="cvitae-collapseSix" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul class="cv-item">
+                            <li>Statistical Consultant - Freelance (December 2019 - Present)</li>
+                            <li>Mathematics Tutor - Freelance (August 2019 - Present)</li>
+                            <li>Statistical Consultant - Statistical Consulting Group - Institute of Statistics (13 February 2024 - 31 December 2025)</li>
+                            <li>Tutor - STAT 135 Midterm Exam Tutorials  -UPLB (2 October 2025)</li>
+                            <li>Adviser - U.P. GURO: Mathematics and Science Teaching Society -UPLB (August 2024 -June 2025)</li>
+                            <li>Judge - Science, Arts, and Business Week 2025 -Christian School International (2 April 2025)</li>
+                            <li>Judge - Grade 12 Research Symposium -Christian School International (4 April 2024)</li>
+                            <li>Education Committee Head -UPLB INFOCUS Multimedia Guild -UPLB (June 2018 –December 2018)</li>
+                            <li>Logistics Committee Head -U.P. GURO: Mathematics and Science Teaching Society -UPLB (June 2017 –May 2018)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end of Sixth Item-->
+            <!--Seventh Item: Special Certifications-->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="cvitae-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cvitae-collapseSeven" aria-expanded="true" aria-controls="cvitae-collapseSeven">
+                        Special Certifications
+                    </button>
+                </h3>
+                <div id="cvitae-collapseSeven" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul class="cv-item">
+                            <li>CS50x: Introduction to Computer Science - Harvard University (May - August 2026)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end of Seventh Item-->
         </div>
         </div>
 
