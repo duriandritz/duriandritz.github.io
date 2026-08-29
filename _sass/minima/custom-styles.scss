@@ -51,13 +51,15 @@ h2 {
     --bs-accordion-active-color: #00708A;
     // $accordion-btn-icon: escape-svg($custom-chevron);
     // $accordion-btn-active-icon: escape-svg($custom-chevron-active);
+    --#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon)};
+    --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon)};
     --bs-accordion-btn-focus-box-shadow: 0 0 0 2px #00354520;
-    .accordion-button::after {
-        background-image: escape-svg($custom-chevron);
-    }
-    .accordion-button::not(.collapsed)::after {
-        background-image: escape-svg($custom-chevron-active);
-    }
+    // .accordion-button::after {
+    //     background-image: escape-svg($custom-chevron);
+    // }
+    // .accordion-button::not(.collapsed)::after {
+    //     background-image: escape-svg($custom-chevron-active);
+    // }
 }
 
 .accordion-header {
