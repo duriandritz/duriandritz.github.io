@@ -277,7 +277,7 @@ permalink: /statisticaltestselector
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p15" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Chi-Square Goodness-of-Fit Test
-<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Chi-Square Goodness-of-Fit">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Chi-Square Goodness-of-Fit">2</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.01%3A_Exact_Test_of_Goodness-of-Fit" target = "_blank" title="Exact Test">3</a>]</sup>                    </h6>
                         <h7>Ordinal Variables are still considered categorical variables. Use this test to determine if your observed data fits a hypothesized distribution. 
 <br>
 <br>Example:
@@ -422,8 +422,8 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p36" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>Test for Independence
-<sup>[<a href="https://online.stat.psu.edu/stat504/Lesson03#test-for-independence" target = "_blank" title="Test for Independence">2</a>]</sup>                    </h6>
+                    <h6>Chi-Square Test of Independence
+<sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.05%3A_Chi-square_Test_of_Independence" target = "_blank" title="Chi-Square Test of Independence">2</a>]</sup><sup>[<a href="https://online.stat.psu.edu/stat504/Lesson03#test-for-independence" target = "_blank" title="Chi-Square Test of Independence">3</a>]</sup>                    </h6>
                         <h7>Use this to determine if the variables are associated with (or dependent on) each other.
 <br>
 <br>Example:
@@ -479,13 +479,6 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                         <h7>This test can be used to test for the mean of a normally distributed variable.</h7>
                 </div>
             </div>
-            <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p44" style="padding: 10px; margin-bottom: 10px">
-                <div class="container" style="padding-bottom: 5px">
-                    <h6>Dependent Samples t-test for Population Mean Difference
-                    </h6>
-                        <h7>Use this test if you have two matched samples and would like to test the mean.</h7>
-                </div>
-            </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p45" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>McNemar&#39;s Test
@@ -499,7 +492,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p46" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Chi-Square Test of Independence
-<sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.05%3A_Chi-square_Test_of_Independence" target = "_blank" title="Chi-Square Test of Independence">2</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.06%3A_GTest_of_Independence" target = "_blank" title="Alternative: G-Test of Independence">alt</a>]</sup><sup>[<a href="https://online.stat.psu.edu/stat504/Lesson04#fishers-exact-test" target = "_blank" title="Alternative: Fisher&#39;s Exact Test">alt</a>]</sup>                    </h6>
+<sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.05%3A_Chi-square_Test_of_Independence" target = "_blank" title="Chi-Square Test of Independence">2</a>]</sup><sup>[<a href="https://online.stat.psu.edu/stat504/Lesson03#test-for-independence" target = "_blank" title="Chi-Square Test of Independence">3</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.06%3A_GTest_of_Independence" target = "_blank" title="Alternative: G-Test of Independence">alt</a>]</sup><sup>[<a href="https://online.stat.psu.edu/stat504/Lesson04#fishers-exact-test" target = "_blank" title="Alternative: Fisher&#39;s Exact Test">alt</a>]</sup>                    </h6>
                         <h7>Use this test to test for the difference in proportions of two independent groups.
 <br>
 <br>Example:
@@ -578,8 +571,8 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p53" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>Dependent Samples t-test for Population Mean Difference
-<sup>[<a href="https://online.stat.psu.edu/stat200/lesson/8/8.3/8.3.2" target = "_blank" title="Matched Pairs t-Test">3</a>]</sup>                    </h6>
+                    <h6>Dependent Samples t-Test for a Mean Difference
+<sup>[<a href="https://online.stat.psu.edu/stat200/lesson/8/8.3/8.3.2" target = "_blank" title="Dependent Samples t-Test">3</a>]</sup>                    </h6>
                         <h7>Use this test if you have two matched samples and would like to test the mean of the paired differences.</h7>
                 </div>
             </div>
@@ -648,14 +641,14 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p61" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>Independent Samples t-test
-<sup>[<a href="https://stats.libretexts.org/Courses/Citrus_College/Statistics_C1000%3A_Introduction_to_Statistics/09%3A_Hypothesis_Testing_for_Two_Samples/9.02%3A__t-Test_for_the_Difference_Between_Two_Means" target = "_blank" title="t-Test for Two Means">5</a>]</sup>                    </h6>
+                    <h6>Independent Samples t-Test for a Mean Difference
+<sup>[<a href="https://stats.libretexts.org/Courses/Citrus_College/Statistics_C1000%3A_Introduction_to_Statistics/09%3A_Hypothesis_Testing_for_Two_Samples/9.02%3A__t-Test_for_the_Difference_Between_Two_Means" target = "_blank" title="Independent Samples t-Test">5</a>]</sup>                    </h6>
                         <h7>Use this test to test for the difference in the means of two normally distributed samples with equal variances.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p62" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>Welch&#39;s t-test
+                    <h6>Welch&#39;s t-Test for a Mean Difference
 <sup>[<a href="https://stats.libretexts.org/Courses/Cerritos_College/Introduction_to_Statistics_with_R/11%3A_Comparing_Two_Means/11.04%3A_The_Independent_Samples_t-test_(Welch_Test)" target = "_blank" title="Welch&#39;s Test">5</a>]</sup>                    </h6>
                         <h7>Use this test to test for the difference in means of two normally distributed random samples with different variances.</h7>
                 </div>
@@ -777,7 +770,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p78" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>F-test on Two Population Variances
+                    <h6>F-Test on Two Population Variances
 <sup>[<a href="https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/13%3A_F_Distribution_and_One-Way_ANOVA/13.05%3A_Test_of_Two_Variances" target = "_blank" title="F-Test">2</a>]</sup>                    </h6>
                         <h7>Use this test when you want to test for difference between two variances from different normal distributions.</h7>
                 </div>
@@ -851,14 +844,14 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p89" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Z-Test for One Population Proportion
-<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson08#one-sample-proportion" target = "_blank" title="One Sample Proportion Z-Test">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson08#one-sample-proportion" target = "_blank" title="One Sample Proportion Z-Test">2</a>]</sup><sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Alternative: Chi-Square Goodness-of-Fit">alt</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.01%3A_Exact_Test_of_Goodness-of-Fit" target = "_blank" title="Alternative: Exact Test">alt</a>]</sup>                    </h6>
                         <h7>Use this test to determine if your data fits a hypothesized distribution/proportion.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p90" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Chi-Square Goodness-of-Fit Test
-<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Chi-Square Goodness-of-Fit">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Chi-Square Goodness-of-Fit">2</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.01%3A_Exact_Test_of_Goodness-of-Fit" target = "_blank" title="Alternative: Exact Test">alt</a>]</sup>                    </h6>
                         <h7>Use this test to determine if your data fits a hypothesized distribution/set of proportions.</h7>
                 </div>
             </div>
