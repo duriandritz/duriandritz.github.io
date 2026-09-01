@@ -3,8 +3,7 @@ layout: base
 title: "DIY Stats - Statistical Test Selector"
 permalink: /statisticaltestselector
 ---
-<body     style="background-color: white"
->
+<body  style="background-color: white" >
         <header class="navbar navbar-expand-md p-0">
             <div class="container p-0 pt-2">
                 <nav class="container mx-3">
@@ -22,7 +21,6 @@ permalink: /statisticaltestselector
     <li>
         <button type="button" data-bs-toggle="modal" data-bs-target="#pmodal" class="nav-link px-2 text-secondary">Statistical Test Selector</button>
     </li>
-    <!-- Project Modal-->
     <div class="modal fade" id="pmodal" tabindex="-1" aria-labelledby="pmodalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
@@ -61,7 +59,6 @@ permalink: /statisticaltestselector
                         </p>
                 </div>
                 <div class="modal-footer">
-                    <!-- <h6 style="font-size: 12px"> -->
                         <p>
                             This web application was inspired by
                             <a href="https://statisticaldecisiontree.microsiris.com/default.htm">The Decision Tree for Statistics</a>
@@ -69,9 +66,8 @@ permalink: /statisticaltestselector
                             that may have been used in this web application.
                         </p>
                         <p>
-                            Statistical Test Selector last updated August 30, 2026.
+                            Statistical Test Selector last updated September 1, 2026.
                         </p>
-                    <!-- </h6> -->
                 </div>
             </div>
         </div>
@@ -107,7 +103,6 @@ permalink: /statisticaltestselector
         <div class ="container-fluid border border-2 overflow-y-auto rounded-3" style="height: 522px; padding-top: 15px; margin-bottom: 7px; background-color: white; border-color: black !important">
             <h5>In choosing your statistical test, first identify the problem/objective that you wish to solve.</h5>
             <h6>Afterwards, answer the questions below in sequence.</h6>
-        <!-- Div 1: Using Flask to Automate the Questions and Answers-->
             <div class="bg-light border border-1 container-xxl prompt rounded-3 visually-hidden" id="p1" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>How many variables are in your problem?
@@ -863,14 +858,11 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             Reset Answers
         </button>
     </div>
-        <!-- Script 1: Remove hidden from first question -->
         <script>
             const pOne = document.getElementById("p1");
             pOne.classList.remove("visually-hidden");
         </script>
 
-        <!-- Script 2: Add an activator to the answers -->
-        <!-- Script 4: Undo Button-->
         <script>
             var currentPrompt = pOne;
             var previousPrompt;
@@ -878,7 +870,6 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             const options = document.querySelectorAll(".answer");
             const undoButton = document.querySelector("#undoButton");
             const resetAnsButton = document.querySelector("#resetAns");
-            // what happens when the undo button is clicked
             function setCurrentPrompt(cp, pp) {
                 currentPrompt = cp;
                 previousPrompt = pp;
@@ -886,9 +877,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             }
             function undofxn() {
                 var newpreviousid;
-                // the current prompt is hidden
                 currentPrompt.classList.add("visually-hidden");
-                // the previous prompt options are no longer disabled
                 for (peer of previousPeers) {
                     peer.removeAttribute("disabled");
                     peer.classList.remove("btn-outline-primary");
@@ -910,12 +899,9 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             }
             undoButton.addEventListener('click', undofxn);
             for (opt of options) {
-                // target is a prompt
-                let target = document.getElementById(opt.getAttribute("data-target"));
-                // source is a prompt
-                let source = document.getElementById(opt.getAttribute("data-source"));
-                // peers are buttons
-                let peers = document.querySelectorAll("button[data-source=" + opt.getAttribute("data-source") + "]")
+                let target = document.getElementById(opt.getAttribute("data-target")); // target is a prompt
+                let source = document.getElementById(opt.getAttribute("data-source")); // source is a prompt
+                let peers = document.querySelectorAll("button[data-source=" + opt.getAttribute("data-source") + "]") // peers are buttons
                 let my_id = opt.id
                 opt.addEventListener('click', () => {
                     if (target === null) {}
@@ -940,7 +926,6 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             };
         </script>
 
-        <!-- Script 3: Add Reset Answers button without refreshing page-->
         <script>
             const prompts = document.querySelectorAll(".prompt");
             resetAnsButton.addEventListener('click', () => {
@@ -958,7 +943,6 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             })
         </script>
         </main>
-        <!-- About Us Modal-->
         <div class="modal fade" id="AboutUs" tabindex="-1" aria-labelledby="AboutUsLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
@@ -967,17 +951,14 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <!-- <h6> -->
                             <p>DIY Stats is an passion project of Rocket Scientist Teachers to design web applications for statistical needs.</p>
                             <p>Currently, we are working on a Statistical Test Selector so students in research are able to navigate the many
                             different statistical tests simply by answering a series of questions.</p>
                             <p>In the future, Rocket Scientist Teachers plan to develop even more web applications for other statistical concepts.</p>
-                        <!-- </h6> -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact Us Modal-->
         <div class="modal fade" id="ContactUs" tabindex="-1" aria-labelledby="ContactUsLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">

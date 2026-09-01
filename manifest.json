@@ -1,0 +1,17 @@
+{
+  "name": "Statistical Test Selector - Rocket Scientist Teachers",
+  "short_name": "statisticaltestselector",
+  "start_url": "/duriandritz.github.io/",
+  "scope": "/duriandritz.github.io/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "A self-help guide for choosing the appropriate statistical test for your research objective.",
+  "icons": [
+    {
+      "src": "/duriandritz.github.io/assets/images/favicon.ico",
+      "sizes": "20x20",
+      "type": "image/x-icon"
+    }
+  ]
+}

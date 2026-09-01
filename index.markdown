@@ -4,3 +4,4 @@
 
 layout: base
 ---
+<link rel="manifest" href="manifest.json" />
