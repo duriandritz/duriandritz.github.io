@@ -66,7 +66,7 @@ permalink: /statisticaltestselector
                             that may have been used in this web application.
                         </p>
                         <p>
-                            Statistical Test Selector last updated September 1, 2026.
+                            Statistical Test Selector last updated September 16, 2026.
                         </p>
                 </div>
             </div>
@@ -80,7 +80,7 @@ permalink: /statisticaltestselector
                                 <li><a class="dropdown-item" href="/statisticaltestselector">Statistical Test Selector</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><h6 class="dropdown-header">Coming Soon</h6></li>
-                                <li><a class="dropdown-item disabled" href="#">Experimental Design Layout Builder</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Experimental Design Randomizer</a></li>
                                 <li><a class="dropdown-item disabled" href="#">Probability Distribution Visualizer</a></li>
                             </ul>
                         </li>
@@ -463,14 +463,14 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p41" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Z-Test for One Population Mean
-<sup>[<a href="https://online.stat.psu.edu/stat200/lesson/8/8.2/8.2.3/8.2.3.3" target = "_blank" title="One Sample Mean Z-Test">4</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson08#one-sample-mean-z-test-optional" target = "_blank" title="One Sample Mean Z-Test">4</a>]</sup>                    </h6>
                         <h7>This test can be used to test for the mean of a normally distributed continuous variable with known population variance.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p42" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>t-Test for One Population Mean
-<sup>[<a href="https://online.stat.psu.edu/stat200/lesson/8/8.2/8.2.3/8.2.3.1" target = "_blank" title="One Sample Mean t-Test">4</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat200/Lesson08#one-sample-mean" target = "_blank" title="One Sample Mean t-Test">4</a>]</sup>                    </h6>
                         <h7>This test can be used to test for the mean of a normally distributed variable.</h7>
                 </div>
             </div>
@@ -567,13 +567,13 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p53" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Dependent Samples t-Test for a Mean Difference
-<sup>[<a href="https://online.stat.psu.edu/stat200/lesson/8/8.3/8.3.2" target = "_blank" title="Dependent Samples t-Test">3</a>]</sup>                    </h6>
+<sup>[<a href="https://stats.libretexts.org/Workbench/Learning_Statistics_with_SPSS_-_A_Tutorial_for_Psychology_Students_and_Other_Beginners/10%3A_Comparing_Two_Means/10.05%3A_The_Paired-samples_t-test" target = "_blank" title="Dependent Samples t-Test">3</a>]</sup>                    </h6>
                         <h7>Use this test if you have two matched samples and would like to test the mean of the paired differences.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p54" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>The Statistical Test Selector does not yet include a test for difference in means with non-normal populations.
+                    <h6>The Statistical Test Selector does not yet include a test for this selection.
                     </h6>
                         <h7>Recommendation: Transform the variable into ranks and test for the median difference instead of means.</h7>
                 </div>
@@ -588,7 +588,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p56" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Kolmogorov-Smirnov Test for Distribution
-<sup>[<a href="https://online.stat.psu.edu/stat415/lesson/22" target = "_blank" title="Kolmogorov-Smirnov Test">3</a>]</sup>                    </h6>
+<sup>[<a href="https://ocw.mit.edu/courses/18-443-statistics-for-applications-fall-2006/resources/lecture14/" target = "_blank" title="Kolmogorov-Smirnov Test">3</a>]</sup>                    </h6>
                         <h7>Use this test to test if your sample comes from a hypothesized distribution.</h7>
                 </div>
             </div>
@@ -714,7 +714,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p71" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Chi-Square Test for One Population Variance
-<sup>[<a href="https://online.stat.psu.edu/stat415/lesson/12/12.1" target = "_blank" title="Chi-Square Test">4</a>]</sup>                    </h6>
+<sup>[<a href="https://pressbooks-dev.oer.hawaii.edu/introductorystatistics/chapter/test-of-a-single-variance/" target = "_blank" title="Chi-Square Test">4</a>]</sup>                    </h6>
                         <h7>Use this test to test for the variance or standard deviation of your sample.
 <br>
 <br>Example:
@@ -840,14 +840,20 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Z-Test for One Population Proportion
 <sup>[<a href="https://online.stat.psu.edu/stat200/Lesson08#one-sample-proportion" target = "_blank" title="One Sample Proportion Z-Test">2</a>]</sup><sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Alternative: Chi-Square Goodness-of-Fit">alt</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.01%3A_Exact_Test_of_Goodness-of-Fit" target = "_blank" title="Alternative: Exact Test">alt</a>]</sup>                    </h6>
-                        <h7>Use this test to determine if your data fits a hypothesized distribution/proportion.</h7>
+                        <h7>Use this test to determine if your data fits a hypothesized distribution/proportion. Alternatively, you could use the Exact Test if the assumptions for Z-Test are not satisfied.
+<br>
+<br>Example:
+<br>Is the proportion of viable product larger than 90%?</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p90" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Chi-Square Goodness-of-Fit Test
 <sup>[<a href="https://online.stat.psu.edu/stat200/Lesson11#goodness-of-fit-test" target = "_blank" title="Chi-Square Goodness-of-Fit">2</a>]</sup><sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Biological_Statistics_(McDonald)/02%3A_Tests_for_Nominal_Variables/2.01%3A_Exact_Test_of_Goodness-of-Fit" target = "_blank" title="Alternative: Exact Test">alt</a>]</sup>                    </h6>
-                        <h7>Use this test to determine if your data fits a hypothesized distribution/set of proportions.</h7>
+                        <h7>Use this test to determine if your data fits a hypothesized distribution/set of proportions. Alternatively, you could use the Exact Test if the assumptions of a Chi-Square Test are violated.
+<br>
+<br>Example:
+<br>Are the attendees of the event equally distributed between the different colleges?</h7>
                 </div>
             </div>
         </div>
