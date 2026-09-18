@@ -3,7 +3,7 @@ layout: base
 title: "DIY Stats - Statistical Test Selector"
 permalink: /statisticaltestselector
 ---
-<body  style="background-color: white" >
+ <body  style="background-color: white" >
         <header class="navbar navbar-expand-md p-0">
             <div class="container p-0 pt-2">
                 <nav class="container mx-3">
@@ -58,13 +58,13 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a1" data-target="p2" data-source="p1">
+                            <button class="answer btn btn-primary" id="a1" data-target="p2" data-source="p1" style="margin-bottom: 2px">
                                 One Variable
                             </button>
-                            <button class="answer btn btn-primary" id="a2" data-target="p3" data-source="p1">
+                            <button class="answer btn btn-primary" id="a2" data-target="p3" data-source="p1" style="margin-bottom: 2px">
                                 Two Variables
                             </button>
-                            <button class="answer btn btn-primary" id="a3" data-target="p4" data-source="p1">
+                            <button class="answer btn btn-primary" id="a3" data-target="p4" data-source="p1" style="margin-bottom: 2px">
                                 More than Two Variables
                             </button>
                 </div>
@@ -75,13 +75,13 @@ permalink: /statisticaltestselector
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.04%3A_Levels_of_Measurement" target = "_blank" title="Level of Measurement">1</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a4" data-target="p5" data-source="p2">
+                            <button class="answer btn btn-primary" id="a4" data-target="p5" data-source="p2" style="margin-bottom: 2px">
                                 Nominal
                             </button>
-                            <button class="answer btn btn-primary" id="a10" data-target="p11" data-source="p2">
+                            <button class="answer btn btn-primary" id="a10" data-target="p11" data-source="p2" style="margin-bottom: 2px">
                                 Ordinal
                             </button>
-                            <button class="answer btn btn-primary" id="a11" data-target="p12" data-source="p2">
+                            <button class="answer btn btn-primary" id="a11" data-target="p12" data-source="p2" style="margin-bottom: 2px">
                                 Interval or Ratio
                             </button>
                 </div>
@@ -92,10 +92,10 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a9" data-target="p10" data-source="p3">
+                            <button class="answer btn btn-primary" id="a9" data-target="p10" data-source="p3" style="margin-bottom: 2px">
                                 Differences Between Groups
                             </button>
-                            <button class="answer btn btn-primary" id="a21" data-target="p22" data-source="p3">
+                            <button class="answer btn btn-primary" id="a21" data-target="p22" data-source="p3" style="margin-bottom: 2px">
                                 Relationship Between Variables
                             </button>
                 </div>
@@ -106,10 +106,10 @@ permalink: /statisticaltestselector
 <sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Business_Statistics_(OpenStax)/01%3A_Sampling_and_Data/1.04%3A_Experimental_Design_and_Ethics" target = "_blank" title="Response Variable">1</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a27" data-target="p28" data-source="p4">
+                            <button class="answer btn btn-primary" id="a27" data-target="p28" data-source="p4" style="margin-bottom: 2px">
                                 Factors Affecting a Response Variable
                             </button>
-                            <button class="answer btn btn-primary" id="a30" data-target="p31" data-source="p4">
+                            <button class="answer btn btn-primary" id="a30" data-target="p31" data-source="p4" style="margin-bottom: 2px">
                                 Relationships Between Variables
                             </button>
                 </div>
@@ -120,10 +120,10 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a5" data-target="p6" data-source="p5">
+                            <button class="answer btn btn-primary" id="a5" data-target="p6" data-source="p5" style="margin-bottom: 2px">
                                 Distribution/Proportions
                             </button>
-                            <button class="answer btn btn-primary" id="a18" data-target="p19" data-source="p5">
+                            <button class="answer btn btn-primary" id="a18" data-target="p19" data-source="p5" style="margin-bottom: 2px">
                                 Other
                             </button>
                 </div>
@@ -134,10 +134,10 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a88" data-target="p89" data-source="p6">
+                            <button class="answer btn btn-primary" id="a88" data-target="p89" data-source="p6" style="margin-bottom: 2px">
                                 Two
                             </button>
-                            <button class="answer btn btn-primary" id="a89" data-target="p90" data-source="p6">
+                            <button class="answer btn btn-primary" id="a89" data-target="p90" data-source="p6" style="margin-bottom: 2px">
                                 More than Two
                             </button>
                 </div>
@@ -148,10 +148,10 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a22" data-target="p23" data-source="p10">
+                            <button class="answer btn btn-primary" id="a22" data-target="p23" data-source="p10" style="margin-bottom: 2px">
                                 Two
                             </button>
-                            <button class="answer btn btn-primary" id="a23" data-target="p24" data-source="p10">
+                            <button class="answer btn btn-primary" id="a23" data-target="p24" data-source="p10" style="margin-bottom: 2px">
                                 More than Two
                             </button>
                 </div>
@@ -162,13 +162,13 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a14" data-target="p16" data-source="p11">
+                            <button class="answer btn btn-primary" id="a14" data-target="p16" data-source="p11" style="margin-bottom: 2px">
                                 Measures of Central Tendency
                             </button>
-                            <button class="answer btn btn-primary" id="a15" data-target="p15" data-source="p11">
+                            <button class="answer btn btn-primary" id="a15" data-target="p15" data-source="p11" style="margin-bottom: 2px">
                                 Distribution
                             </button>
-                            <button class="answer btn btn-primary" id="a69" data-target="p70" data-source="p11">
+                            <button class="answer btn btn-primary" id="a69" data-target="p70" data-source="p11" style="margin-bottom: 2px">
                                 Dispersion
                             </button>
                 </div>
@@ -179,13 +179,13 @@ permalink: /statisticaltestselector
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a12" data-target="p13" data-source="p12">
+                            <button class="answer btn btn-primary" id="a12" data-target="p13" data-source="p12" style="margin-bottom: 2px">
                                 Measures of Central Tendency
                             </button>
-                            <button class="answer btn btn-primary" id="a37" data-target="p38" data-source="p12">
+                            <button class="answer btn btn-primary" id="a37" data-target="p38" data-source="p12" style="margin-bottom: 2px">
                                 Distribution
                             </button>
-                            <button class="answer btn btn-primary" id="a38" data-target="p39" data-source="p12">
+                            <button class="answer btn btn-primary" id="a38" data-target="p39" data-source="p12" style="margin-bottom: 2px">
                                 Dispersion
                             </button>
                 </div>
@@ -196,10 +196,10 @@ permalink: /statisticaltestselector
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/05%3A_Continuous_Probability_Distributions/5.03%3A_Normal_Distribution_and_Its_Applications" target = "_blank" title="Normal Distribution">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a13" data-target="p14" data-source="p13">
+                            <button class="answer btn btn-primary" id="a13" data-target="p14" data-source="p13" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a39" data-target="p40" data-source="p13">
+                            <button class="answer btn btn-primary" id="a39" data-target="p40" data-source="p13" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -210,10 +210,10 @@ permalink: /statisticaltestselector
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.02%3A_Definitions_of_Statistics_and_Key_Terms#Definition:_Population" target = "_blank" title="Population">3</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a40" data-target="p41" data-source="p14">
+                            <button class="answer btn btn-primary" id="a40" data-target="p41" data-source="p14" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a41" data-target="p42" data-source="p14">
+                            <button class="answer btn btn-primary" id="a41" data-target="p42" data-source="p14" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -252,10 +252,10 @@ permalink: /statisticaltestselector
 https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.04%3A_Levels_of_Measurement" target = "_blank" title="Level of Measurement">1</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a35" data-target="p36" data-source="p22">
+                            <button class="answer btn btn-primary" id="a35" data-target="p36" data-source="p22" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a79" data-target="p80" data-source="p22">
+                            <button class="answer btn btn-primary" id="a79" data-target="p80" data-source="p22" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -266,16 +266,16 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Courses/Lumen_Learning/Concepts_in_Statistics_(Lumen)/07%3A_Linking_Probability_to_Statistical_Inference/7.03%3A_Parameters_vs._Statistics" target = "_blank" title="Parameter">1</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a25" data-target="p26" data-source="p23">
+                            <button class="answer btn btn-primary" id="a25" data-target="p26" data-source="p23" style="margin-bottom: 2px">
                                 Proportions
                             </button>
-                            <button class="answer btn btn-primary" id="a26" data-target="p27" data-source="p23">
+                            <button class="answer btn btn-primary" id="a26" data-target="p27" data-source="p23" style="margin-bottom: 2px">
                                 Means
                             </button>
-                            <button class="answer btn btn-primary" id="a48" data-target="p49" data-source="p23">
+                            <button class="answer btn btn-primary" id="a48" data-target="p49" data-source="p23" style="margin-bottom: 2px">
                                 Medians
                             </button>
-                            <button class="answer btn btn-primary" id="a49" data-target="p50" data-source="p23">
+                            <button class="answer btn btn-primary" id="a49" data-target="p50" data-source="p23" style="margin-bottom: 2px">
                                 Variances
                             </button>
                 </div>
@@ -286,10 +286,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Courses/Lumen_Learning/Concepts_in_Statistics_(Lumen)/07%3A_Linking_Probability_to_Statistical_Inference/7.03%3A_Parameters_vs._Statistics" target = "_blank" title="Parameter">1</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a46" data-target="p47" data-source="p24">
+                            <button class="answer btn btn-primary" id="a46" data-target="p47" data-source="p24" style="margin-bottom: 2px">
                                 Means
                             </button>
-                            <button class="answer btn btn-primary" id="a47" data-target="p48" data-source="p24">
+                            <button class="answer btn btn-primary" id="a47" data-target="p48" data-source="p24" style="margin-bottom: 2px">
                                 Other
                             </button>
                 </div>
@@ -300,10 +300,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a44" data-target="p45" data-source="p26">
+                            <button class="answer btn btn-primary" id="a44" data-target="p45" data-source="p26" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a45" data-target="p46" data-source="p26">
+                            <button class="answer btn btn-primary" id="a45" data-target="p46" data-source="p26" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -314,10 +314,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a50" data-target="p51" data-source="p27">
+                            <button class="answer btn btn-primary" id="a50" data-target="p51" data-source="p27" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a51" data-target="p52" data-source="p27">
+                            <button class="answer btn btn-primary" id="a51" data-target="p52" data-source="p27" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -328,10 +328,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.04%3A_Levels_of_Measurement" target = "_blank" title="Level of Measurement">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a28" data-target="p63" data-source="p28">
+                            <button class="answer btn btn-primary" id="a28" data-target="p63" data-source="p28" style="margin-bottom: 2px">
                                 Nominal or Ordinal
                             </button>
-                            <button class="answer btn btn-primary" id="a62" data-target="p29" data-source="p28">
+                            <button class="answer btn btn-primary" id="a62" data-target="p29" data-source="p28" style="margin-bottom: 2px">
                                 Interval or Ratio
                             </button>
                 </div>
@@ -342,10 +342,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a65" data-target="p66" data-source="p29">
+                            <button class="answer btn btn-primary" id="a65" data-target="p66" data-source="p29" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a66" data-target="p67" data-source="p29">
+                            <button class="answer btn btn-primary" id="a66" data-target="p67" data-source="p29" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -356,10 +356,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a67" data-target="p68" data-source="p31">
+                            <button class="answer btn btn-primary" id="a67" data-target="p68" data-source="p31" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a68" data-target="p69" data-source="p31">
+                            <button class="answer btn btn-primary" id="a68" data-target="p69" data-source="p31" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -380,10 +380,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/07%3A_Normal_Distribution/7.01%3A_Introduction_to_Normal_Distributions" target = "_blank" title="Normality">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a54" data-target="p55" data-source="p38">
+                            <button class="answer btn btn-primary" id="a54" data-target="p55" data-source="p38" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a55" data-target="p56" data-source="p38">
+                            <button class="answer btn btn-primary" id="a55" data-target="p56" data-source="p38" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -394,10 +394,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.02%3A_Definitions_of_Statistics_and_Key_Terms#Definition:_Population" target = "_blank" title="Population">2</a>]</sup><sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/05%3A_Continuous_Probability_Distributions/5.03%3A_Normal_Distribution_and_Its_Applications" target = "_blank" title="Normal Distribution">3</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a70" data-target="p71" data-source="p39">
+                            <button class="answer btn btn-primary" id="a70" data-target="p71" data-source="p39" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a71" data-target="p72" data-source="p39">
+                            <button class="answer btn btn-primary" id="a71" data-target="p72" data-source="p39" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -463,10 +463,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a72" data-target="p73" data-source="p49">
+                            <button class="answer btn btn-primary" id="a72" data-target="p73" data-source="p49" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a74" data-target="p75" data-source="p49">
+                            <button class="answer btn btn-primary" id="a74" data-target="p75" data-source="p49" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -477,10 +477,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a75" data-target="p76" data-source="p50">
+                            <button class="answer btn btn-primary" id="a75" data-target="p76" data-source="p50" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a76" data-target="p77" data-source="p50">
+                            <button class="answer btn btn-primary" id="a76" data-target="p77" data-source="p50" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -491,10 +491,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/07%3A_Normal_Distribution/7.01%3A_Introduction_to_Normal_Distributions" target = "_blank" title="Normality">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a52" data-target="p53" data-source="p51">
+                            <button class="answer btn btn-primary" id="a52" data-target="p53" data-source="p51" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a53" data-target="p54" data-source="p51">
+                            <button class="answer btn btn-primary" id="a53" data-target="p54" data-source="p51" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -505,10 +505,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/05%3A_Continuous_Probability_Distributions/5.03%3A_Normal_Distribution_and_Its_Applications" target = "_blank" title="Normal Distribution">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a56" data-target="p57" data-source="p52">
+                            <button class="answer btn btn-primary" id="a56" data-target="p57" data-source="p52" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a57" data-target="p58" data-source="p52">
+                            <button class="answer btn btn-primary" id="a57" data-target="p58" data-source="p52" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -547,10 +547,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.02%3A_Definitions_of_Statistics_and_Key_Terms#Definition:_Population" target = "_blank" title="Population">3</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a58" data-target="p59" data-source="p57">
+                            <button class="answer btn btn-primary" id="a58" data-target="p59" data-source="p57" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a59" data-target="p60" data-source="p57">
+                            <button class="answer btn btn-primary" id="a59" data-target="p60" data-source="p57" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -575,10 +575,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.02%3A_Definitions_of_Statistics_and_Key_Terms#Definition:_Population" target = "_blank" title="Population">4</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a60" data-target="p61" data-source="p60">
+                            <button class="answer btn btn-primary" id="a60" data-target="p61" data-source="p60" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a61" data-target="p62" data-source="p60">
+                            <button class="answer btn btn-primary" id="a61" data-target="p62" data-source="p60" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -603,10 +603,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a63" data-target="p64" data-source="p63">
+                            <button class="answer btn btn-primary" id="a63" data-target="p64" data-source="p63" style="margin-bottom: 2px">
                                 Two
                             </button>
-                            <button class="answer btn btn-primary" id="a64" data-target="p65" data-source="p63">
+                            <button class="answer btn btn-primary" id="a64" data-target="p65" data-source="p63" style="margin-bottom: 2px">
                                 More than Two
                             </button>
                 </div>
@@ -704,10 +704,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a77" data-target="p78" data-source="p77">
+                            <button class="answer btn btn-primary" id="a77" data-target="p78" data-source="p77" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a78" data-target="p79" data-source="p77">
+                            <button class="answer btn btn-primary" id="a78" data-target="p79" data-source="p77" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -732,13 +732,13 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a80" data-target="p81" data-source="p80">
+                            <button class="answer btn btn-primary" id="a80" data-target="p81" data-source="p80" style="margin-bottom: 2px">
                                 One Ordinal, One Interval/Ratio
                             </button>
-                            <button class="answer btn btn-primary" id="a81" data-target="p82" data-source="p80">
+                            <button class="answer btn btn-primary" id="a81" data-target="p82" data-source="p80" style="margin-bottom: 2px">
                                 Both Interval/Ratio
                             </button>
-                            <button class="answer btn btn-primary" id="a82" data-target="p83" data-source="p80">
+                            <button class="answer btn btn-primary" id="a82" data-target="p83" data-source="p80" style="margin-bottom: 2px">
                                 Other
                             </button>
                 </div>
@@ -756,10 +756,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
 <sup>[<a href="https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/05%3A_Special_Distributions/5.07%3A_The_Multivariate_Normal_Distribution" target = "_blank" title="Bivariate Normal Distribution">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
-                            <button class="answer btn btn-primary" id="a83" data-target="p84" data-source="p82">
+                            <button class="answer btn btn-primary" id="a83" data-target="p84" data-source="p82" style="margin-bottom: 2px">
                                 Yes
                             </button>
-                            <button class="answer btn btn-primary" id="a84" data-target="p85" data-source="p82">
+                            <button class="answer btn btn-primary" id="a84" data-target="p85" data-source="p82" style="margin-bottom: 2px">
                                 No
                             </button>
                 </div>
@@ -943,7 +943,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                             that may have been used in this web application.
                         </p>
                         <p>
-                            Statistical Test Selector last updated September 18, 2026.
+                            Statistical Test Selector last updated September 16, 2026.
                         </p>
                 </div>
             </div>
