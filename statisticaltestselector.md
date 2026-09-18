@@ -8,90 +8,39 @@ permalink: /statisticaltestselector
             <div class="container p-0 pt-2">
                 <nav class="container mx-3">
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start py-1" role="navigation">
-                        <a href="#" class="navbar-brand d-flex mb-lg-0 me-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" role="img" width="30" height="30" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                        <a href="#" role="button" class="navbar-brand d-flex mb-lg-0 me-1" id="navbarBrandButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" width="30" height="30" fill="black" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
                                 <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
                                 <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"/>
                                 <path d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
                             </svg>
                         </a>
-                        <div class="collapse navbar-collapse">
+                        <div class="collapse navbar-collapse" id="myCollapsible">
                             <ul class="nav col-lg-auto me-auto mb-2 justify-content-center mb-md-0">
                                 <li><a href="#" class="nav-link px-2 text-dark">DIY Stats</a></li>
     <li>
         <button type="button" data-bs-toggle="modal" data-bs-target="#pmodal" class="nav-link px-2 text-secondary">Statistical Test Selector</button>
     </li>
-    <div class="modal fade" id="pmodal" tabindex="-1" aria-labelledby="pmodalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="ContactUsLabel">Statistical Test Selector - How to Use</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                        <p>You are here because you are one of the following:</p>
-                        <ul>
-                            <li>a student enrolled in an inferential statistics course;</li>
-                            <li>a researcher unsure of what statistical test to use;</li>
-                            <li>a data analyst that needs to look up the basics; or</li>
-                            <li>you just really love stats.</li>
-                        </ul>
-                        <br>
-                        <p>
-                            In any case, this web app might just be what you're looking for!
-                        </p>
-                        <p>
-                            The Statistical Test Selector is designed to be a self-help guide using
-                            only simple questions about your research question, variable/s, and
-                            assumptions about the population of interest.
-                        </p>
-                        <p>
-                            For most of the tests recommended, it is assumed that your sample was
-                            selected using simple random sampling, or that you have followed the necessary
-                            protocols for randomization in experiments.
-                        </p>
-                        <p>
-                            If you have comments or suggestions, please feel free to contact us through our
-                            connected channels. As always,
-                        </p>
-                        <p>
-                            It's not Rocket Science, it's just Stats!
-                        </p>
-                </div>
-                <div class="modal-footer">
-                        <p>
-                            This web application was inspired by
-                            <a href="https://statisticaldecisiontree.microsiris.com/default.htm">The Decision Tree for Statistics</a>
-                            (2014) by Neal Van Eck. Rocket Scientist Teachers does not claim to own any copyrighted content
-                            that may have been used in this web application.
-                        </p>
-                        <p>
-                            Statistical Test Selector last updated September 16, 2026.
-                        </p>
-                </div>
-            </div>
-        </div>
-    </div>
                             </ul>
-                    <ul class="nav col-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li class="nav-item dropdown-center">
-                            <a class="nav-link dropdown-toggle px-2 text-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false">Other Tools</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/statisticaltestselector">Statistical Test Selector</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><h6 class="dropdown-header">Coming Soon</h6></li>
-                                <li><a class="dropdown-item disabled" href="#">Experimental Design Randomizer</a></li>
-                                <li><a class="dropdown-item disabled" href="#">Probability Distribution Visualizer</a></li>
+                            <ul class="nav col-lg-auto mb-2 justify-content-center mb-md-0">
+                                <li class="nav-item dropdown-center">
+                                    <a class="nav-link dropdown-toggle px-2 text-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false">Other Tools</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="/statisticaltestselector">Statistical Test Selector</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><h6 class="dropdown-header">Coming Soon</h6></li>
+                                        <li><a class="dropdown-item disabled" href="#">Experimental Design Randomizer</a></li>
+                                        <li><a class="dropdown-item disabled" href="#">Probability Distribution Visualizer</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#AboutUs" class="nav-link px-2 text-secondary">About</button>
+                                </li>
+                                <li>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#ContactUs" class="nav-link px-2 text-secondary">Contact Us</button>
+                                </li>
                             </ul>
-                        </li>
-                        <li>
-                            <button type="button" data-bs-toggle="modal" data-bs-target="#AboutUs" class="nav-link px-2 text-secondary">About</button>
-                        </li>
-                        <li>
-                            <button type="button" data-bs-toggle="modal" data-bs-target="#ContactUs" class="nav-link px-2 text-secondary">Contact Us</button>
-                        </li>
-                    </ul>
-                </div>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -154,7 +103,7 @@ permalink: /statisticaltestselector
             <div class="bg-light border border-1 container-xxl prompt rounded-3 visually-hidden" id="p4" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Which of the following best describes your objective?
-                    </h6>
+<sup>[<a href="https://stats.libretexts.org/Bookshelves/Applied_Statistics/Business_Statistics_(OpenStax)/01%3A_Sampling_and_Data/1.04%3A_Experimental_Design_and_Ethics" target = "_blank" title="Response Variable">1</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
                             <button class="answer btn btn-primary" id="a27" data-target="p28" data-source="p4">
@@ -375,8 +324,8 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-light border border-1 container-xxl prompt rounded-3 visually-hidden" id="p28" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>What is the level of measurement of the response variable?
-<sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.04%3A_Levels_of_Measurement" target = "_blank" title="Level of Measurement">1</a>]</sup>                    </h6>
+                    <h6>What is the Level of Measurement of the response variable?
+<sup>[<a href="https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/01%3A_Naming_Collecting_Data_and_Research_Design/1.04%3A_Levels_of_Measurement" target = "_blank" title="Level of Measurement">2</a>]</sup>                    </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
                             <button class="answer btn btn-primary" id="a28" data-target="p63" data-source="p28">
@@ -389,7 +338,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-light border border-1 container-xxl prompt rounded-3 visually-hidden" id="p29" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>Are the factors variables of interest all categorical?
+                    <h6>Are the factor variables of interest all categorical?
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
@@ -650,7 +599,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             </div>
             <div class="bg-light border border-1 container-xxl prompt rounded-3 visually-hidden" id="p63" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
-                    <h6>How many levels are there in the categorical response variable?
+                    <h6>How many levels are there in the response variable?
                     </h6>
                 </div>
                 <div class="container-fluid" style="padding:5px">
@@ -665,35 +614,35 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p64" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Binary Logistic Regression
-<sup>[<a href="https://online.stat.psu.edu/stat462/node/207/" target = "_blank" title="Logistic Regression">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat462/node/207/" target = "_blank" title="Logistic Regression">3</a>]</sup>                    </h6>
                         <h7>Use this method for modeling the probabilities of a binary variable using predictor variables.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p65" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Multinomial Logistic Regression
-<sup>[<a href="https://online.stat.psu.edu/stat504/Lesson08" target = "_blank" title="Multinomial Logistic Regression">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat504/Lesson08" target = "_blank" title="Multinomial Logistic Regression">3</a>]</sup>                    </h6>
                         <h7>Use this method when there are more than two categories in the response variable.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p66" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Analysis of Variance
-<sup>[<a href="https://online.stat.psu.edu/stat500/Lesson10" target = "_blank" title="ANOVA">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat500/Lesson10" target = "_blank" title="ANOVA">3</a>]</sup>                    </h6>
                         <h7>Use this method in conjunction with multiple F-tests to determine the significant factors that affect your response variable.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p67" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Multiple Linear Regression
-<sup>[<a href="https://online.stat.psu.edu/stat462/node/131/" target = "_blank" title="Multiple Linear Regression">2</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat462/node/131/" target = "_blank" title="Multiple Linear Regression">3</a>]</sup>                    </h6>
                         <h7>Use this method in conjunction with multiple F-tests to determine the factors that affect your response variable.</h7>
                 </div>
             </div>
             <div class="bg-info-subtle border border-1 container-xxl prompt rounded-3 visually-hidden" id="p68" style="padding: 10px; margin-bottom: 10px">
                 <div class="container" style="padding-bottom: 5px">
                     <h6>Partial Correlations
-<sup>[<a href="https://online.stat.psu.edu/stat505/Lesson06#testing-for-partial-correlation" target = "_blank" title="Partial Correlation">1</a>]</sup>                    </h6>
+<sup>[<a href="https://online.stat.psu.edu/stat505/Lesson06#testing-for-partial-correlation" target = "_blank" title="Partial Correlation">2</a>]</sup>                    </h6>
                         <h7>Use this to test for relationships between pairs of variables while accounting for possible variance from other variables.</h7>
                 </div>
             </div>
@@ -861,7 +810,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             Undo
         </button>
         <button class="answer btn btn-light" id="resetAns" disabled>
-            Reset Answers
+            Reset Options
         </button>
     </div>
         <script>
@@ -949,12 +898,93 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
             })
         </script>
         </main>
+    <div class="modal fade" id="pmodal" tabindex="-1" aria-labelledby="pmodalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ContactUsLabel">Statistical Test Selector - How to Use</h1>
+                    <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                        <p>You are here because you are one of the following:</p>
+                        <ul>
+                            <li>a student enrolled in an inferential statistics course;</li>
+                            <li>a researcher unsure of what statistical test to use;</li>
+                            <li>a data analyst that needs to look up the basics; or</li>
+                            <li>you just really love stats.</li>
+                        </ul>
+                        <br>
+                        <p>
+                            In any case, this web app might just be what you're looking for!
+                        </p>
+                        <p>
+                            The Statistical Test Selector is designed to be a self-help guide using
+                            only simple questions about your research question, variable/s, and
+                            assumptions about the population of interest.
+                        </p>
+                        <p>
+                            For most of the tests recommended, it is assumed that your sample was
+                            selected using simple random sampling, or that you have followed the necessary
+                            protocols for randomization in experiments.
+                        </p>
+                        <p>
+                            If you have comments or suggestions, please feel free to contact us through our
+                            connected channels. As always,
+                        </p>
+                        <p>
+                            It's not Rocket Science, it's just Stats!
+                        </p>
+                </div>
+                <div class="modal-footer">
+                        <p>
+                            This web application was inspired by
+                            <a href="https://statisticaldecisiontree.microsiris.com/default.htm">The Decision Tree for Statistics</a>
+                            (2014) by Neal Van Eck. Rocket Scientist Teachers does not claim to own any copyrighted content
+                            that may have been used in this web application.
+                        </p>
+                        <p>
+                            Statistical Test Selector last updated September 18, 2026.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="modal fade" id="offcanvasNav" tabindex="-1" aria-labelledby="offcanvasNavLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-sm">
+                <div class="modal-content align-items-center justify-content-center">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="offcanvasNavLabel">Statistical Test Selector</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+                    <div class="modal-body text-center">
+                            <p role="button" data-bs-toggle="modal" data-bs-target="#pmodal" >How To Use</p>
+                            <!-- <div class="accordion accordion-flush" id="otherToolsAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                    <p role="button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#otherToolsTab" aria-expanded="false" aria-controls="otherToolsTab">
+                                        Other Tools
+                                    </p>
+                                    </h2>
+                                    <div id="otherToolsTab" class="accordion-collapse collapse" data-bs-parent="#otherToolsAccordion">
+                                        <div class="accordion-body">
+                                            <p>Experimental Design Randomizer</p>
+                                            <p>Probability Distribution Visualizer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <p role="button" data-bs-toggle="modal" data-bs-target="#AboutUs">About DIY Stats</p>
+                            <p role="button" data-bs-toggle="modal" data-bs-target="#ContactUs">Contact Us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="AboutUs" tabindex="-1" aria-labelledby="AboutUsLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="AboutUsLabel">About DIY Stats</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                             <p>DIY Stats is an passion project of Rocket Scientist Teachers to design web applications for statistical needs.</p>
@@ -970,7 +1000,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="ContactUsLabel">Rocket Scientist Teachers</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <h6>
@@ -985,5 +1015,33 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                 </div>
             </div>
         </div>
-
     </body>
+<script>
+    const rocketButton = document.getElementById("navbarBrandButton");
+    const modalClosers = document.querySelectorAll(".modal-close")
+    var myCollapsible = document.getElementById('myCollapsible')
+    var widthOutput;
+    function updateSize() {
+        widthOutput = window.innerWidth;
+        if (widthOutput < 768) {
+            rocketButton.setAttribute("data-bs-toggle", "modal")
+            rocketButton.setAttribute("data-bs-target", "#offcanvasNav")
+            for (modal of modalClosers) {
+                modal.setAttribute("data-bs-toggle", "modal")
+                modal.setAttribute("data-bs-target", "#offcanvasNav")
+                modal.removeAttribute("data-bs-dismiss")
+            }
+        }
+        else {
+            rocketButton.removeAttribute("data-bs-toggle")
+            rocketButton.removeAttribute("data-bs-target")
+            for (modal of modalClosers) {
+                modal.removeAttribute("data-bs-toggle")
+                modal.removeAttribute("data-bs-target")
+                modal.setAttribute("data-bs-dismiss", "modal")
+            }
+        }
+    }
+    updateSize();
+    window.addEventListener("resize", updateSize);
+</script>
