@@ -943,7 +943,7 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                             that may have been used in this web application.
                         </p>
                         <p>
-                            Statistical Test Selector last updated September 16, 2026.
+                            Statistical Test Selector last updated October 05, 2026.
                         </p>
                 </div>
             </div>
