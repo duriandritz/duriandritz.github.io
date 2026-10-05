@@ -987,10 +987,10 @@ https://stats.libretexts.org/Workbench/Statistics_for_Behavioral_Science_Majors/
                         <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                            <p>DIY Stats is an passion project of Rocket Scientist Teachers to design web applications for statistical needs.</p>
+                            <p>DIY Stats is a passion project of Rocket Scientist Teachers to design web applications for statistical needs.</p>
                             <p>Currently, we are working on a Statistical Test Selector so students in research are able to navigate the many
                             different statistical tests simply by answering a series of questions.</p>
-                            <p>In the future, Rocket Scientist Teachers plan to develop even more web applications for other statistical concepts.</p>
+                            <p>In the future, Rocket Scientist Teachers plan to develop more web applications for other statistical concepts.</p>
                     </div>
                 </div>
             </div>
